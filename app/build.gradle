@@ -13,6 +13,9 @@ android {
         versionCode 1
         versionName "1.0"
 
+        // Allow using vectors files in older Android APIs
+        vectorDrawables.useSupportLibrary = true
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
